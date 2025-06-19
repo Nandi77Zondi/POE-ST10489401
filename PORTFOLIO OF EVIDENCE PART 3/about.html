@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Nandi's Oven</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <meta name="author" content="SN Zondi">
+  <meta name="copyright" content="ST10489401">
+  <meta name="keywords" content="bite, Cakes, Desserts, Tea time, Red velvet">
+  <meta name="description" content="Desserts and cakes">
+</head>
+  <header>
+    <nav class="nav">
+      <h1>Nandi's Oven</h1>
+      <button class="hamburger" id="hamburger">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="images.html">Gallery</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<body>
+
+
+  
+  <section class="about-banner">
+    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Bakery Banner" />
+  </section>
+
+  
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          At Nandi's Oven, we believe every bite should bring joy.
+          Founded with a passion for baking and a heart full of tradition,
+          our bakery specializes in creating mouthwatering desserts and cakes
+          that turn ordinary moments into unforgettable celebrations.
+        </p>
+        <p>
+          Whether you're hosting a tea party, celebrating a milestone, or just indulging
+          in a well-deserved treat — we've got the goods to make it magical. Our recipes are
+          crafted with care, using quality ingredients, and each order is made to suit your
+          unique taste and style.
+        </p>
+        <p>
+          Join our family of dessert lovers, and let Nandi’s Oven bring sweetness to your story.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/baker.jpeg" alt="Baker" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; ST10489401 2025 Nandi's Oven. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("navMenu");
+
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+    });
+	    <section class="datetime">
+      <p>Current Date & Time:</p>
+      <time id="currentTime" datetime=""></time>
+    </section>
+    <section class="datetime">
+      <p>Current Date & Time:</p>
+      <time id="currentTime" datetime=""></time>
+    </section>
+  </script>
+</body>
+</html>
